@@ -16,7 +16,7 @@ This project is for educational porpuses only, HTML5 and CSS testing. Pull reque
 
 Site published at: https://audrbar.github.io/10-coming-soon/
 
-Design: [HAPPY WEEKEND](./images/happy-weekend.png)
+Design: [HAPPY WEEKEND](./images/coming-soon-wide.png)
 
 ## 🎯 Project features/goals
 
