@@ -1,14 +1,14 @@
 {
   "name": "10-coming-soon",
   "version": "1.0.0",
-  "description": "",
+  "description": "Coming soon project",
   "main": "index.js",
   "scripts": {
-    "dev": "dead-server",
+    "dev": "dead-server --host=localhost --port=4110",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["html", "css"],
+  "author": "audrbar",
   "license": "ISC",
   "devDependencies": {
     "dead-server": "^1.0.9"
