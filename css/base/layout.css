@@ -1,0 +1,23 @@
+section:first-child {
+    padding: 10px;
+    background-color: antiquewhite;
+}
+section {
+    padding: 10px;
+    background-color: aquamarine;
+    display: inline-block;
+}
+.left {
+    width: calc(50% - 10px);
+    background-color: burlywood;
+
+}
+.right {
+    width:  calc(50% - 10px);
+    background-color: coral;
+    float: right;
+}
+footer {
+    padding: 20px 0px;
+    background-color:brown;
+}
