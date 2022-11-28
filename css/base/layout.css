@@ -5,19 +5,19 @@ section:first-child {
 section {
     padding: 10px;
     background-color: aquamarine;
-    display: inline-block;
 }
 .left {
-    width: calc(50% - 10px);
+    width: calc(50% - 5px);
     background-color: burlywood;
+    display: inline-block;
 
 }
 .right {
-    width:  calc(50% - 10px);
+    width:  calc(50% - 5px);
     background-color: coral;
-    float: right;
+    display: inline-block;
 }
 footer {
-    padding: 20px 0px;
+    padding: 20px 10px;
     background-color:brown;
 }
