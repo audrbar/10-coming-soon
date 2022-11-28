@@ -8,7 +8,7 @@
 # 10-coming-soon
 _Website design project_
 <br>
-![Alt text](./images/happy-weekend1.png)
+![Alt text](./images/coming-soon-wide.png)
 <br>
 ## 🌟 About
 
@@ -16,11 +16,13 @@ This project is for educational porpuses only, HTML5 and CSS testing. Pull reque
 
 Site published at: https://audrbar.github.io/10-coming-soon/
 
-Design: [HAPPY WEEKEND](./images/happy-weekend.png)
+Design: [COMIG SOON](./images/coming-soon-wide.png)
 
 ## 🎯 Project features/goals
 
 -   Github pages
+-   Responsive design
+-   CSS animation
 -   basic [HTML (structure)](https://www.w3schools.com/TAGS/default.asp) and CSS (style)
 -   [markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
