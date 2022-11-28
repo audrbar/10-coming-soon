@@ -8,7 +8,7 @@
 # 10-coming-soon
 _Website design project_
 <br>
-![Alt text](./images/happy-weekend1.png)
+![Alt text](./images/coming-soon-wide.png)
 <br>
 ## 🌟 About
 
