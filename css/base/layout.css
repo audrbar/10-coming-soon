@@ -12,6 +12,11 @@ section {
     display: inline-block;
 
 }
+.center {
+    width:  calc(50% - 5px);
+    background-color: coral;
+    display: inline-block;
+}
 .right {
     width:  calc(50% - 5px);
     background-color: coral;
