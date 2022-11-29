@@ -6,15 +6,12 @@ section {
     padding: 10px;
     background-color: aquamarine;
 }
+section > * {
+    margin: 2px 0px;
+}
 .left {
     width: calc(50% - 5px);
     background-color: burlywood;
-    display: inline-block;
-
-}
-.center {
-    width:  calc(50% - 5px);
-    background-color: coral;
     display: inline-block;
 }
 .right {
