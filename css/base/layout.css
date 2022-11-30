@@ -39,7 +39,7 @@
         padding-right: 20px;
     }
     .container > .row,
-    .container > .short-row, {
+    .container > .short-row {
         width: 100%;
         margin-left: 0px;
     }
