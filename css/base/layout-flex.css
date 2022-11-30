@@ -53,10 +53,7 @@
         width: 100%;
         margin-left: 0;
     }
-    .container > .row > .left {
-        width: 100%;
-    }
-    .container > .row > .right {
+    .container > .row > .column {
         width: 100%;
     }
 }
