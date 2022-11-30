@@ -18,7 +18,10 @@
     margin-left: calc(50% - 300px);
 }
 
-.container > .row > .left {
+.container > .row > .column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
     width: 50%;
 }
 .container > .row > .right {
