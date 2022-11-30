@@ -1,3 +1,7 @@
+:root {
+    --main-color: #03a9f4;
+    --secondary-color: #03a9f4;
+}
 body,
 body * {
     margin: 0;
@@ -11,5 +15,5 @@ body {
         sans-serif;
 }
 .bg-blue {
-    background-color:burlywood;
+    background-color: var(--main-color);
 }
