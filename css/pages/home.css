@@ -8,6 +8,10 @@
 .logo {
     height: 30px;
 }
+li {
+    display: inline;
+    gap: 50px;
+}
 .main-title {
     font-size: 65px;
     text-transform: uppercase;
