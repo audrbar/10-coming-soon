@@ -13,15 +13,11 @@ li {
     gap: 50px;
 }
 .main-title {
-    font-size: 65px;
+    font-size: 75px;
     text-transform: uppercase;
 }
 .main-description {
     font-size: 22px;
-}
-.clock {
-    width: 80%;
-    background-color: bisque;
 }
 .section-title {
     font-size: 18px;
@@ -75,7 +71,7 @@ footer.container {
 }
 .bottom > .trio {
     display: flex;
-    gap: 20px;
+    gap: 0 20px;
 }
 .bottom a {
     color: #fff;
@@ -83,5 +79,8 @@ footer.container {
 @media (max-width: 700px) {
     .main-title {
         font-size: 60px;
+    }
+    .bottom > .trio {
+        flex-direction: column;
     }
 }

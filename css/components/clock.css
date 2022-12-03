@@ -1,4 +1,32 @@
-body {
+.clock {
+    display: flex;
+    gap: 40px 0;
+    flex-wrap: wrap;
+    width: 100%;
+    color: #fff;
+}
+.clock > .time {
+    width: 25%;
+}
+.clock > .time > .value {
+    font-size: 60px;
+}
+.clock > .time > .label {
+  text-transform: uppercase;
+}
+
+@media (max-width: 700px) {
+    .clock > .time {
+      width: 50%;
+  }
+}
+@media (max-width: 400px) {
+  .clock > .time {
+    width: 100%;
+}
+}
+
+/* bbody {
     color: #fff;
     display: flex;
     align-items: center;
@@ -36,4 +64,4 @@ body {
     100% {
       background: hsl(0,100%,20%);
     }
-  }
+  } */
