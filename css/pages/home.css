@@ -73,6 +73,33 @@ footer.container {
     display: flex;
     gap: 0 20px;
 }
+.bottom > .trio > p {
+    position: relative;
+}
+.bottom > .trio > p + p::before {
+    content: '';
+    display: inline-block;
+    width: 2px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: -11px;
+}
+/* .bottom > .trio > p::after {
+    content: '|';
+}
+.bottom > .trio > p:last-child::after {
+    content: '';
+}
+.bottom > .trio > p {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid white;
+}
+.bottom > .trio > p:last-child {
+    border: none;
+} */
 .bottom a {
     color: #fff;
 }
