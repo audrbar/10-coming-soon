@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/base/base.css">
     <link rel="stylesheet" href="./css/base/layout-flex.css">
+    <!-- 3-rd party -->
     <link rel="stylesheet" href="./css/3rd-party/font-awesome.min.css">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- Components -->
+    <link rel="stylesheet" href="./css/components/clock.css">
+    <link rel="stylesheet" href="./css/components/progress-bar.css">
+    <!-- Pages -->
     <link rel="stylesheet" href="./css/pages/home.css">
     <title>Coming Soon</title>
     <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-touch-icon.png">
@@ -25,13 +29,21 @@
             <h1 class="main-title">Coming Soon</h1>
             <p class="main-description">An awesome new company for web resources is coming very soon. Enter your email to request an early invitation!</p>
             <div class="clock">
-                <div id="countdown">
-                    <ul>
-                        <li><span id="days"></span>Days</li>
-                        <li><span id="hours"></span>Hours</li>
-                        <li><span id="minutes"></span>Minutes</li>
-                        <li><span id="seconds"></span>Seconds</li>
-                    </ul>
+                <div class="time">
+                    <div class="value">432</div>
+                    <div class="label">Days</div>
+                </div>
+                <div class="time">
+                    <div class="value">09</div>
+                    <div class="label">Hours</div>
+                </div>
+                <div class="time">
+                    <div class="value">37</div>
+                    <div class="label">Minutes</div>
+                </div>
+                <div class="time">
+                    <div class="value">39</div>
+                    <div class="label">Seconds</div>
                 </div>
             </div>
             <form action="/#">
@@ -46,15 +58,35 @@
             <div class="column left">
                 <h2 class="section-title">About startup</h2>
                 <p class="section-description">Matrox material design multi-purpose html template. It comes with huge content and background variants.<a href="#"> Matrox</a> is coming very soon. We are nearly there..</p>
-                <label for="ux-design">UX Design</label>
-                <label for="ux-design">90%</label>
-                <progress id="ux-design" value="90" max="100"> 90% </progress>
-                <label for="web-design">Web Design</label>
-                <label for="ux-design">86%</label>
-                <progress id="web-design" value="86" max="100"> 86% </progress>
-                <label for="web-develpment">Web Development</label>
-                <label for="ux-design">86%</label>
-                <progress id="web-develpment" value="86" max="100"> 32% </progress>
+                <div class="progress-bar-list">
+                    <div class="progress-bar">
+                        <div class="top">
+                            <div class="label">UX Design</div>
+                            <div class="value">90%</div>
+                        </div>
+                        <div class="progress">
+                            <div class="bar" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="top">
+                            <div class="label">Web Design</div>
+                            <div class="value">76%</div>
+                        </div>
+                        <div class="progress">
+                            <div class="bar" style="width: 76%;"></div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="top">
+                            <div class="label">Web Development</div>
+                            <div class="value">56%</div>
+                        </div>
+                        <div class="progress">
+                            <div class="bar" style="width: 56%;"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="column right">
                 <h2 class="section-title">Have any question?</h2>
