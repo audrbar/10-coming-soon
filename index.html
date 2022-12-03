@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/base/base.css">
     <link rel="stylesheet" href="./css/base/layout-flex.css">
+    <!-- 3-rd party -->
     <link rel="stylesheet" href="./css/3rd-party/font-awesome.min.css">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- Components -->
+    <link rel="stylesheet" href="./css/components/clock.css">
     <link rel="stylesheet" href="./css/pages/home.css">
     <title>Coming Soon</title>
     <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-touch-icon.png">
@@ -25,13 +27,21 @@
             <h1 class="main-title">Coming Soon</h1>
             <p class="main-description">An awesome new company for web resources is coming very soon. Enter your email to request an early invitation!</p>
             <div class="clock">
-                <div id="countdown">
-                    <ul>
-                        <li><span id="days"></span>Days</li>
-                        <li><span id="hours"></span>Hours</li>
-                        <li><span id="minutes"></span>Minutes</li>
-                        <li><span id="seconds"></span>Seconds</li>
-                    </ul>
+                <div class="time">
+                    <div class="value">432</div>
+                    <div class="label">Days</div>
+                </div>
+                <div class="time">
+                    <div class="value">09</div>
+                    <div class="label">Hours</div>
+                </div>
+                <div class="time">
+                    <div class="value">37</div>
+                    <div class="label">Minutes</div>
+                </div>
+                <div class="time">
+                    <div class="value">39</div>
+                    <div class="label">Seconds</div>
                 </div>
             </div>
             <form action="/#">
