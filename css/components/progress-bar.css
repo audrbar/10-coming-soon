@@ -12,11 +12,8 @@
     display: flex;
     justify-content: space-between;
 }
-.progress-bar-list > .top > .label {
-    
-}
-.progress-bar-list > .top > .value {
-    
+.progress-bar-list > .progress-bar > .top  {
+    color: rgb(105, 105, 105);
 }
 .progress-bar-list > .progress-bar > .progress {
     height: 6px;
