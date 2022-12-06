@@ -45,7 +45,7 @@ li {
 footer.container {
     padding-top: 0;
 }
-.row.socials {
+.row .socials {
     justify-content: center;
     gap: 1em;
     padding-top: 0.5em;
@@ -67,6 +67,24 @@ footer.container {
 .socials > a:hover {
     background-color: #fff;
     color: var(--main-color);
+}
+.back-to-top {
+    background-color: var(--secondary-color);
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    line-height: 2.5em;
+    text-align: center;
+    font-size: 1em;
+    position: relative;
+    top: -1.2em;
+    right: -1em;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.5s;
+}
+.back-to-top:hover {
+    box-shadow: 0 3px 6px #323432;
 }
 .bottom {
     display: flex;
