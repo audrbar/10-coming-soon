@@ -45,14 +45,19 @@ li {
 footer.container {
     padding-top: 0;
 }
-.row .socials {
+footer.container > .row {
     justify-content: center;
-    gap: 1em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     margin-bottom: 2em;
     font-size: 20px;
     border-bottom: 1px solid #fff;
+    position: relative;
+}
+.row .socials {
+    justify-content: center;
+    gap: 1em;
+    font-size: 20px;
 }
 .socials > a {
     width: 2.5em;
@@ -76,7 +81,7 @@ footer.container {
     line-height: 2.5em;
     text-align: center;
     font-size: 1em;
-    position: relative;
+    position: absolute;
     top: -1.2em;
     right: -1em;
     text-decoration: none;
