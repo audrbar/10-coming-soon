@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="./css/components/clock.css">
     <link rel="stylesheet" href="./css/components/progress-bar.css">
     <link rel="stylesheet" href="./css/components/mouse.css">
+    <link rel="stylesheet" href="./css/components/form.css">
+    <link rel="stylesheet" href="./css/components/button.css">
     <!-- Pages -->
     <link rel="stylesheet" href="./css/pages/home.css">
     <title>Coming Soon</title>
@@ -48,8 +50,8 @@
                 </div>
             </div>
             <form action="/#">
-                <input type="email" id="email" name="email" value="Type you email"><br>
-                <input type="submit" value="Subscribe Now">
+                <div><input type="email" id="email" name="email" value="Type you email"></div>
+                <button class="btn">Subscribe Now</button>
             </form>
             <div class="mouse">
             </div>
@@ -94,10 +96,21 @@
                 <h2 class="section-title">Have any question?</h2>
                 <p class="section-description">You can use contact form below or contact us via e-mail at: <a href="#">trendytheme.net@gmail.com</a> Contact form is fully working and very easy to customize. </p>
                 <form action="/#">
-                    <input type="text" id="fname" name="fname" value="Name"><br>
-                    <input type="email" id="email" name="email" value="Email"><br>
-                    <input type="text" id="fname" name="fname" value="Message"><br>
-                    <input type="submit" value="Send Message">
+                    <div class="cell-1">
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text" placeholder="Your name..." required>
+                    </div>
+                    <div class="cell-1">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" placeholder="Your email..." required>
+                    </div>
+                    <div class="cell-2">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Your message..."></textarea>
+                    </div>
+                    <div class="cell-2">
+                        <button class="btn">Send Message</button>
+                    </div>
                 </form>
             </div>
         </div>

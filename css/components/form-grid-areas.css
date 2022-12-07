@@ -1,0 +1,66 @@
+::placeholder {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+    font-style: italic;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    grid-template-areas:
+        'name email'
+        'msg msg'
+        'btn btn';
+}
+/* form > .cell-1 {
+    grid-column: span 1;
+}
+form > .cell-2 {
+    grid-column: span 2;
+} */
+form > div:nth-child(1) {
+    grid-area: name;
+}
+form > div:nth-child(2) {
+    grid-area: email;
+}
+form > div:nth-child(3) {
+    grid-area: msg;
+}
+form > div:nth-child(4) {
+    grid-area: btn;
+    display: grid;
+    justify-content: end;
+}
+form > div > label {
+    display: none;
+}
+form > div > input,
+form > div > textarea {
+    width: 100%;
+    padding: 0.5em 0.1em;
+    font-size: 18px;
+    line-height: 1.2em;
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+form > div > textarea {
+    min-height: 4.8em;
+    max-height: 13em;
+    resize: vertical;
+}
+
+@media (max-width: 1000px) {
+    form {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            'email'
+            'name'
+            'msg'
+            'btn';
+    }
+    /* form > .cell-2 {
+        grid-column: span 1;
+    } */
+}
