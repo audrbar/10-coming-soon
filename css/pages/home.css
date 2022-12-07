@@ -28,6 +28,13 @@ li {
 .main-description {
     font-size: 22px;
 }
+.container .hero > form {
+    background: transparent;
+    grid-template-columns: 1fr;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    gap: 20px;
+}
 .section-title {
     font-size: 18px;
     text-transform: uppercase;
