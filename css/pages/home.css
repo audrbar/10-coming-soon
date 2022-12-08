@@ -33,7 +33,18 @@ li {
     grid-template-columns: 1fr;
     border: none;
     border-bottom: 1px solid #ccc;
-    gap: 20px;
+    width: 90%;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color: transparent;
+    cursor: default;
+    align-items: center;
+}
+.btn {
+    width: 180px;
+    float: left;
 }
 .section-title {
     font-size: 18px;
