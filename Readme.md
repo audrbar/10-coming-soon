@@ -8,15 +8,15 @@
 # 10-coming-soon
 _Website design project_
 <br>
-![Alt text](./images/project_view.png)
+![Alt text](./images/coming-soon-wide.png)
 <br>
 ## 🌟 About
 
-This project is for educational porpuses only, HTML5, CSS and figma testing. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
+This project is for educational porpuses only, HTML5 and CSS testing. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://audrbar.github.io/12-bit/
+Site published at: https://audrbar.github.io/10-coming-soon/
 
-Design: [BIT LANDING](./images/project_view.png)
+Design: [COMIG SOON](./images/coming-soon-wide.png)
 
 ## 🎯 Project features/goals
 
@@ -48,7 +48,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/audrbar/12-bit.git
+    git clone https://github.com/audrbar/10-coming-soon.git
     ```
 2. Install NPM packages
     ```sh
